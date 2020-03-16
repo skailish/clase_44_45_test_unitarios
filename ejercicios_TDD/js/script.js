@@ -81,7 +81,7 @@ const getShortestWords = texto => {
  *  ]) // returns 3
  */
 
-const getTallestSkyscrapper = (array2D) => {
+const getTallestSkyscrapper = array2D => {
     const copy = array2D.slice();
     const length = copy.length;
 
